@@ -1,0 +1,15 @@
+.tabs{
+    border-radius: 12px;
+    margin: auto 16px;
+    a.tab{
+        display: inline-block;
+        font-size: 12px;
+        padding: 4px 8px;
+        min-width: 50px;
+        background-color: grey;
+        color: white;
+        border-radius: 12px;
+        text-align: center;
+        text-decoration: none;
+    }
+}

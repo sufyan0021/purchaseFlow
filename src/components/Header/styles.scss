@@ -1,0 +1,21 @@
+.commonHeader{
+    display: flex;
+    background-color: white;
+    padding: 16px;
+    height: 40px;
+    font-size: 18px;
+    align-items: center;
+    font-weight: 700;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border:1px solid lightgrey;
+    span.sideHeader{
+        flex: 1;
+    }
+    .tabsContainer{
+        display: flex;
+        width: 100%;
+        flex: 2;
+    }
+}

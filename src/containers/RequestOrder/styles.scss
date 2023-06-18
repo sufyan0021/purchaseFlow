@@ -1,0 +1,32 @@
+.purchaseOrderContainer{
+    display: flex;
+    .formInputReceiver{
+        display: flex;
+        width: 100%;
+        padding: 16px;
+        .inputColumnEven,.inputColumnOdd{
+            width: 100%;
+        }
+        .actionContainer{
+            display: flex;
+            flex-direction: column;
+            span{
+                margin-bottom: 15px;
+            }
+            .actionButtonGroup{
+                display: inline-flex;
+                gap: 10px;
+                .MuiButton-colorPrimary{
+                    min-width: 70px;
+                }
+            }
+        }
+    }
+    .inputField{
+        //max-width: 250px;
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        min-height: 105px;
+    }
+}

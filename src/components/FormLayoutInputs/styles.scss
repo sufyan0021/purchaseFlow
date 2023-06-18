@@ -1,0 +1,44 @@
+.formBuiderContainer{
+    display: flex;
+    background-color: whitesmoke;
+    max-width: 196px;
+    height: 100vh;
+    .formBuider{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 32px;
+        max-height: 328px;
+    
+        .card {
+            /* Add shadows to create the "card" effect */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            //width: 116px;
+            //height: 116px;
+            width: 66px;
+            height: 66px;
+            box-sizing: border-box;
+            background-color: white;
+            margin-bottom:16px;
+            margin-right: 16px;
+            margin-left: 16px;
+        }
+          
+        /* On mouse-over, add a deeper shadow */
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        .leftPanel{
+            padding-left: 16px;
+        }
+        .rightPanel{
+            padding-right: 16px;
+            .card{
+                margin-left: 0px;
+            }
+        }
+    }    
+}
